@@ -34,6 +34,12 @@ namespace ParcialModulos
             this.label2 = new System.Windows.Forms.Label();
             this.txtNum1 = new System.Windows.Forms.TextBox();
             this.txtNum2 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtBase = new System.Windows.Forms.TextBox();
+            this.txtAltura = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.btnArea = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnVerificar
@@ -78,11 +84,68 @@ namespace ParcialModulos
             this.txtNum2.Size = new System.Drawing.Size(100, 23);
             this.txtNum2.TabIndex = 4;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(556, 19);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(31, 15);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Area";
+            // 
+            // txtBase
+            // 
+            this.txtBase.Location = new System.Drawing.Point(522, 37);
+            this.txtBase.Name = "txtBase";
+            this.txtBase.Size = new System.Drawing.Size(122, 23);
+            this.txtBase.TabIndex = 6;
+            // 
+            // txtAltura
+            // 
+            this.txtAltura.Location = new System.Drawing.Point(522, 66);
+            this.txtAltura.Name = "txtAltura";
+            this.txtAltura.Size = new System.Drawing.Size(122, 23);
+            this.txtAltura.TabIndex = 7;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(477, 40);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(31, 15);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Base";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(477, 69);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(39, 15);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Altura";
+            // 
+            // btnArea
+            // 
+            this.btnArea.Location = new System.Drawing.Point(556, 95);
+            this.btnArea.Name = "btnArea";
+            this.btnArea.Size = new System.Drawing.Size(75, 23);
+            this.btnArea.TabIndex = 10;
+            this.btnArea.Text = "Area";
+            this.btnArea.UseVisualStyleBackColor = true;
+            this.btnArea.Click += new System.EventHandler(this.btnArea_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnArea);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.txtAltura);
+            this.Controls.Add(this.txtBase);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.txtNum2);
             this.Controls.Add(this.txtNum1);
             this.Controls.Add(this.label2);
@@ -102,6 +165,12 @@ namespace ParcialModulos
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtNum1;
         private System.Windows.Forms.TextBox txtNum2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtBase;
+        private System.Windows.Forms.TextBox txtAltura;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button btnArea;
     }
 }
 

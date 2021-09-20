@@ -25,5 +25,14 @@ namespace ParcialModulos
             MessageBox.Show("El numero menor es " + o.verificarNumeros());
             //Btn VErificar
         }
+
+        private void btnArea_Click(object sender, EventArgs e)
+        {
+            int basse = Convert.ToInt32(txtBase.Text);
+            int Altura = Convert.ToInt32(txtAltura.Text);
+            Modulo2 Area = new Modulo2(basse, Altura);
+            MessageBox.Show(" El area del triangulo es: " + Area.AreaTriangulo());
+            //Btn Area
+        }
     }
 }
