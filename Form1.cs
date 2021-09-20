@@ -23,7 +23,7 @@ namespace ParcialModulos
             int num2 = Convert.ToInt32(txtNum2.Text);
             Modulo1 o = new Modulo1(num1, num2);
             MessageBox.Show("El numero menor es " + o.verificarNumeros());
-            
+            //Btn VErificar
         }
     }
 }
