@@ -40,6 +40,9 @@ namespace ParcialModulos
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.btnArea = new System.Windows.Forms.Button();
+            this.txtPalabra = new System.Windows.Forms.TextBox();
+            this.btnInvertir = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnVerificar
@@ -87,7 +90,7 @@ namespace ParcialModulos
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(556, 19);
+            this.label3.Location = new System.Drawing.Point(565, 19);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(31, 15);
             this.label3.TabIndex = 5;
@@ -127,7 +130,7 @@ namespace ParcialModulos
             // 
             // btnArea
             // 
-            this.btnArea.Location = new System.Drawing.Point(556, 95);
+            this.btnArea.Location = new System.Drawing.Point(547, 95);
             this.btnArea.Name = "btnArea";
             this.btnArea.Size = new System.Drawing.Size(75, 23);
             this.btnArea.TabIndex = 10;
@@ -135,11 +138,40 @@ namespace ParcialModulos
             this.btnArea.UseVisualStyleBackColor = true;
             this.btnArea.Click += new System.EventHandler(this.btnArea_Click);
             // 
+            // txtPalabra
+            // 
+            this.txtPalabra.Location = new System.Drawing.Point(522, 194);
+            this.txtPalabra.Name = "txtPalabra";
+            this.txtPalabra.Size = new System.Drawing.Size(122, 23);
+            this.txtPalabra.TabIndex = 11;
+            // 
+            // btnInvertir
+            // 
+            this.btnInvertir.Location = new System.Drawing.Point(547, 223);
+            this.btnInvertir.Name = "btnInvertir";
+            this.btnInvertir.Size = new System.Drawing.Size(75, 23);
+            this.btnInvertir.TabIndex = 12;
+            this.btnInvertir.Text = "Invertir";
+            this.btnInvertir.UseVisualStyleBackColor = true;
+            this.btnInvertir.Click += new System.EventHandler(this.btnInvertir_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(538, 176);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(93, 15);
+            this.label6.TabIndex = 13;
+            this.label6.Text = "Frases Invertidas";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.btnInvertir);
+            this.Controls.Add(this.txtPalabra);
             this.Controls.Add(this.btnArea);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -171,6 +203,9 @@ namespace ParcialModulos
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnArea;
+        private System.Windows.Forms.TextBox txtPalabra;
+        private System.Windows.Forms.Button btnInvertir;
+        private System.Windows.Forms.Label label6;
     }
 }
 

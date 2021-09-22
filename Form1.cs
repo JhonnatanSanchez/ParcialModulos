@@ -34,5 +34,13 @@ namespace ParcialModulos
             MessageBox.Show(" El area del triangulo es: " + Area.AreaTriangulo());
             //Btn Area
         }
+
+        private void btnInvertir_Click(object sender, EventArgs e)
+        {
+            string invertir = Convert.ToString(txtPalabra.Text);
+            Modulo4 PalabraReverso = new Modulo4();
+            MessageBox.Show("La palabra invertida es: " + PalabraReverso.Reverse(invertir));
+            //btn Invertir
+        }
     }
 }
