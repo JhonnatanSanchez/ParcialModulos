@@ -42,5 +42,11 @@ namespace ParcialModulos
             MessageBox.Show("La palabra invertida es: " + PalabraReverso.Reverse(invertir));
             //btn Invertir
         }
+
+        private void btnIrJuego_Click(object sender, EventArgs e)
+        {
+            Form2 JuegoAhorcado = new Form2();
+            JuegoAhorcado.Show();
+        }
     }
 }
