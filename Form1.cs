@@ -42,5 +42,17 @@ namespace ParcialModulos
             MessageBox.Show("La palabra invertida es: " + PalabraReverso.Reverse(invertir));
             //btn Invertir
         }
+
+        private void btnContadorTexto_Click(object sender, EventArgs e)
+        {
+            String texto = txtTexto.Text;
+            Modulo3 listaLetras = new Modulo3();
+            HashSet<string> listaConDuplicidad = new HashSet<string>(listaLetras.contadorLetras(texto));
+            List<string> listaSinDuplicidad = listaConDuplicidad.ToList();
+            foreach (string l in listaSinDuplicidad)
+            {
+                MessageBox.Show(l);
+            }
+        }
     }
 }

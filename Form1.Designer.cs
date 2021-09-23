@@ -43,6 +43,8 @@ namespace ParcialModulos
             this.txtPalabra = new System.Windows.Forms.TextBox();
             this.btnInvertir = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
+            this.btnContadorTexto = new System.Windows.Forms.Button();
+            this.txtTexto = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnVerificar
@@ -164,11 +166,30 @@ namespace ParcialModulos
             this.label6.TabIndex = 13;
             this.label6.Text = "Frases Invertidas";
             // 
+            // btnContadorTexto
+            // 
+            this.btnContadorTexto.Location = new System.Drawing.Point(51, 243);
+            this.btnContadorTexto.Name = "btnContadorTexto";
+            this.btnContadorTexto.Size = new System.Drawing.Size(100, 23);
+            this.btnContadorTexto.TabIndex = 14;
+            this.btnContadorTexto.Text = "Contar Letras";
+            this.btnContadorTexto.UseVisualStyleBackColor = true;
+            this.btnContadorTexto.Click += new System.EventHandler(this.btnContadorTexto_Click);
+            // 
+            // txtTexto
+            // 
+            this.txtTexto.Location = new System.Drawing.Point(51, 212);
+            this.txtTexto.Name = "txtTexto";
+            this.txtTexto.Size = new System.Drawing.Size(100, 23);
+            this.txtTexto.TabIndex = 15;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtTexto);
+            this.Controls.Add(this.btnContadorTexto);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.btnInvertir);
             this.Controls.Add(this.txtPalabra);
@@ -206,6 +227,8 @@ namespace ParcialModulos
         private System.Windows.Forms.TextBox txtPalabra;
         private System.Windows.Forms.Button btnInvertir;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button btnContadorTexto;
+        private System.Windows.Forms.TextBox txtTexto;
     }
 }
 
