@@ -8,7 +8,6 @@ namespace ParcialModulos
 {
     class Modulo4
     {
-        string invertir;
 
         public string Reverse(string PalabraReverso)
         {
