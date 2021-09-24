@@ -141,14 +141,14 @@ namespace ParcialModulos
             // 
             // txtPalabra
             // 
-            this.txtPalabra.Location = new System.Drawing.Point(522, 194);
+            this.txtPalabra.Location = new System.Drawing.Point(522, 162);
             this.txtPalabra.Name = "txtPalabra";
             this.txtPalabra.Size = new System.Drawing.Size(122, 23);
             this.txtPalabra.TabIndex = 11;
             // 
             // btnInvertir
             // 
-            this.btnInvertir.Location = new System.Drawing.Point(547, 223);
+            this.btnInvertir.Location = new System.Drawing.Point(547, 191);
             this.btnInvertir.Name = "btnInvertir";
             this.btnInvertir.Size = new System.Drawing.Size(75, 23);
             this.btnInvertir.TabIndex = 12;
@@ -159,7 +159,7 @@ namespace ParcialModulos
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(538, 176);
+            this.label6.Location = new System.Drawing.Point(538, 144);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(93, 15);
             this.label6.TabIndex = 13;
@@ -167,7 +167,7 @@ namespace ParcialModulos
             // 
             // btnIrJuego
             // 
-            this.btnIrJuego.Location = new System.Drawing.Point(522, 313);
+            this.btnIrJuego.Location = new System.Drawing.Point(516, 259);
             this.btnIrJuego.Name = "btnIrJuego";
             this.btnIrJuego.Size = new System.Drawing.Size(128, 23);
             this.btnIrJuego.TabIndex = 14;
@@ -179,7 +179,7 @@ namespace ParcialModulos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(696, 304);
             this.Controls.Add(this.btnIrJuego);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.btnInvertir);
