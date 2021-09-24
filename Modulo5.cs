@@ -22,7 +22,7 @@ namespace ParcialModulos
         private List<string> sacarLetras() {
 
             string texto2 = Regex.Replace(this.texto.Normalize(NormalizationForm.FormD), @"[^a-zA-z]+", "");
-            char[] caracter = this.texto.ToCharArray();
+            char[] caracter = texto2.ToCharArray();
             List<string> cadena = new List<string>();
             foreach (char letra in caracter)
             {
@@ -39,18 +39,17 @@ namespace ParcialModulos
             string lista = listaSinDuplicidad.Aggregate((x, y) => x + ", " + y);
             cantidadLetras = listaSinDuplicidad.Count;
 
-            if ((listaSinDuplicidad.Count + 1) == 27)
+            if (cantidadLetras == 27)
             {
-                
-                return lista + " Cantidad Letras :" + cantidadLetras+1;
+                return "Pangrama colombiano \n" + "Letras del abecedario : " + lista + "\nCantidad Letras :" + cantidadLetras;
             }
-            else if (listaSinDuplicidad.Count == 26)
+            else if (cantidadLetras == 26)
             {
-                return lista + "Cantidad Letras :" + cantidadLetras;
+                return "Pangrama Ingles \n" + "Letras del abecedario : " + lista + "\nCantidad Letras :" + cantidadLetras;
             }
             else
             {
-                return lista + "Cantidad Letras :" + cantidadLetras;
+                return "No es un Pangrama \n" + "Letras del abecedario : "+ lista + "\nCantidad Letras :" + cantidadLetras;
             }
         }
     }

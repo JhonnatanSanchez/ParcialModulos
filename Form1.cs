@@ -59,7 +59,7 @@ namespace ParcialModulos
         {
             string frase = txtPangrama.Text;
             Modulo5 pangrama = new Modulo5(frase);
-            MessageBox.Show("paragrama en alfabeto colombiano" + pangrama.buscarPangrama());
+            MessageBox.Show(pangrama.buscarPangrama());
 
         }
     }
