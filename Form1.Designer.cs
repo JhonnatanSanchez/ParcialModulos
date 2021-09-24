@@ -51,6 +51,7 @@ namespace ParcialModulos
             this.txtPangrama = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.btnIrJuego = new System.Windows.Forms.Button();
+            this.label10 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnVerificar
@@ -174,42 +175,42 @@ namespace ParcialModulos
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label7.Location = new System.Drawing.Point(122, 35);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(85, 20);
+            this.label7.Size = new System.Drawing.Size(82, 20);
             this.label7.TabIndex = 16;
             this.label7.Text = "Modulo 1";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label8.Location = new System.Drawing.Point(123, 189);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(85, 20);
+            this.label8.Size = new System.Drawing.Size(82, 20);
             this.label8.TabIndex = 17;
             this.label8.Text = "Modulo 3";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label9.Location = new System.Drawing.Point(538, 35);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(85, 20);
+            this.label9.Size = new System.Drawing.Size(82, 20);
             this.label9.TabIndex = 18;
             this.label9.Text = "Modulo 2";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label3.Location = new System.Drawing.Point(538, 189);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(85, 20);
+            this.label3.Size = new System.Drawing.Size(82, 20);
             this.label3.TabIndex = 19;
-            this.label3.Text = "Modulo 3";
+            this.label3.Text = "Modulo 4";
             // 
             // btnPangrama
             // 
@@ -231,28 +232,40 @@ namespace ParcialModulos
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label6.Location = new System.Drawing.Point(122, 322);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(85, 20);
+            this.label6.Size = new System.Drawing.Size(82, 20);
             this.label6.TabIndex = 22;
             this.label6.Text = "Modulo 5";
             // 
             // btnIrJuego
             // 
-            this.btnIrJuego.Location = new System.Drawing.Point(477, 375);
+            this.btnIrJuego.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnIrJuego.Location = new System.Drawing.Point(477, 356);
             this.btnIrJuego.Name = "btnIrJuego";
-            this.btnIrJuego.Size = new System.Drawing.Size(225, 23);
+            this.btnIrJuego.Size = new System.Drawing.Size(225, 52);
             this.btnIrJuego.TabIndex = 14;
             this.btnIrJuego.Text = "Juego del Ahorcado";
             this.btnIrJuego.UseVisualStyleBackColor = true;
             this.btnIrJuego.Click += new System.EventHandler(this.btnIrJuego_Click);
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label10.Location = new System.Drawing.Point(538, 322);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(82, 20);
+            this.label10.TabIndex = 23;
+            this.label10.Text = "Modulo 6";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(799, 438);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.btnIrJuego);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtPangrama);
@@ -306,6 +319,7 @@ namespace ParcialModulos
         private System.Windows.Forms.TextBox txtPangrama;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btnIrJuego;
+        private System.Windows.Forms.Label label10;
     }
 }
 
