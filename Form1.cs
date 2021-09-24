@@ -43,6 +43,26 @@ namespace ParcialModulos
             //btn Invertir
         }
 
+        private void btnContadorTexto_Click(object sender, EventArgs e)
+        {
+            String texto = txtTexto.Text;
+            Modulo3 listaLetras = new Modulo3();
+            HashSet<string> listaConDuplicidad = new HashSet<string>(listaLetras.contadorLetras(texto));
+            List<string> listaSinDuplicidad = listaConDuplicidad.ToList();
+            foreach (string l in listaSinDuplicidad)
+            {
+                MessageBox.Show(l);
+            }
+        }
+
+        private void btnPangrama_Click(object sender, EventArgs e)
+        {
+            string frase = txtPangrama.Text;
+            Modulo5 pangrama = new Modulo5(frase);
+            MessageBox.Show(pangrama.buscarPangrama());
+
+        }
+
         private void btnIrJuego_Click(object sender, EventArgs e)
         {
             Form2 JuegoAhorcado = new Form2();
@@ -50,3 +70,7 @@ namespace ParcialModulos
         }
     }
 }
+
+
+
+	
