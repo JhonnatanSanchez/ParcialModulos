@@ -215,7 +215,7 @@ namespace ParcialModulos
             // 
             this.btnPangrama.Location = new System.Drawing.Point(33, 385);
             this.btnPangrama.Name = "btnPangrama";
-            this.btnPangrama.Size = new System.Drawing.Size(261, 23);
+            this.btnPangrama.Size = new System.Drawing.Size(406, 23);
             this.btnPangrama.TabIndex = 20;
             this.btnPangrama.Text = "Verificar pangrama";
             this.btnPangrama.UseVisualStyleBackColor = true;
@@ -225,7 +225,7 @@ namespace ParcialModulos
             // 
             this.txtPangrama.Location = new System.Drawing.Point(33, 356);
             this.txtPangrama.Name = "txtPangrama";
-            this.txtPangrama.Size = new System.Drawing.Size(261, 23);
+            this.txtPangrama.Size = new System.Drawing.Size(406, 23);
             this.txtPangrama.TabIndex = 21;
             // 
             // label6
