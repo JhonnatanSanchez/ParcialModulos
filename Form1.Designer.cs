@@ -34,7 +34,6 @@ namespace ParcialModulos
             this.label2 = new System.Windows.Forms.Label();
             this.txtNum1 = new System.Windows.Forms.TextBox();
             this.txtNum2 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.txtBase = new System.Windows.Forms.TextBox();
             this.txtAltura = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -42,16 +41,22 @@ namespace ParcialModulos
             this.btnArea = new System.Windows.Forms.Button();
             this.txtPalabra = new System.Windows.Forms.TextBox();
             this.btnInvertir = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
             this.btnContadorTexto = new System.Windows.Forms.Button();
             this.txtTexto = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.btnPangrama = new System.Windows.Forms.Button();
+            this.txtPangrama = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnVerificar
             // 
-            this.btnVerificar.Location = new System.Drawing.Point(32, 93);
+            this.btnVerificar.Location = new System.Drawing.Point(33, 130);
             this.btnVerificar.Name = "btnVerificar";
-            this.btnVerificar.Size = new System.Drawing.Size(190, 23);
+            this.btnVerificar.Size = new System.Drawing.Size(262, 23);
             this.btnVerificar.TabIndex = 0;
             this.btnVerificar.Text = "Verificar";
             this.btnVerificar.UseVisualStyleBackColor = true;
@@ -60,7 +65,7 @@ namespace ParcialModulos
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(32, 36);
+            this.label1.Location = new System.Drawing.Point(33, 66);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(83, 15);
             this.label1.TabIndex = 1;
@@ -69,7 +74,7 @@ namespace ParcialModulos
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(33, 63);
+            this.label2.Location = new System.Drawing.Point(34, 99);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(83, 15);
             this.label2.TabIndex = 2;
@@ -77,45 +82,36 @@ namespace ParcialModulos
             // 
             // txtNum1
             // 
-            this.txtNum1.Location = new System.Drawing.Point(122, 33);
+            this.txtNum1.Location = new System.Drawing.Point(122, 61);
             this.txtNum1.Name = "txtNum1";
-            this.txtNum1.Size = new System.Drawing.Size(100, 23);
+            this.txtNum1.Size = new System.Drawing.Size(173, 23);
             this.txtNum1.TabIndex = 3;
             // 
             // txtNum2
             // 
-            this.txtNum2.Location = new System.Drawing.Point(122, 60);
+            this.txtNum2.Location = new System.Drawing.Point(123, 95);
             this.txtNum2.Name = "txtNum2";
-            this.txtNum2.Size = new System.Drawing.Size(100, 23);
+            this.txtNum2.Size = new System.Drawing.Size(172, 23);
             this.txtNum2.TabIndex = 4;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(565, 19);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(31, 15);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Area";
             // 
             // txtBase
             // 
-            this.txtBase.Location = new System.Drawing.Point(522, 37);
+            this.txtBase.Location = new System.Drawing.Point(522, 63);
             this.txtBase.Name = "txtBase";
-            this.txtBase.Size = new System.Drawing.Size(122, 23);
+            this.txtBase.Size = new System.Drawing.Size(180, 23);
             this.txtBase.TabIndex = 6;
             // 
             // txtAltura
             // 
-            this.txtAltura.Location = new System.Drawing.Point(522, 66);
+            this.txtAltura.Location = new System.Drawing.Point(522, 91);
             this.txtAltura.Name = "txtAltura";
-            this.txtAltura.Size = new System.Drawing.Size(122, 23);
+            this.txtAltura.Size = new System.Drawing.Size(180, 23);
             this.txtAltura.TabIndex = 7;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(477, 40);
+            this.label4.Location = new System.Drawing.Point(477, 69);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(31, 15);
             this.label4.TabIndex = 8;
@@ -124,7 +120,7 @@ namespace ParcialModulos
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(477, 69);
+            this.label5.Location = new System.Drawing.Point(477, 94);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(39, 15);
             this.label5.TabIndex = 9;
@@ -132,9 +128,9 @@ namespace ParcialModulos
             // 
             // btnArea
             // 
-            this.btnArea.Location = new System.Drawing.Point(547, 95);
+            this.btnArea.Location = new System.Drawing.Point(477, 120);
             this.btnArea.Name = "btnArea";
-            this.btnArea.Size = new System.Drawing.Size(75, 23);
+            this.btnArea.Size = new System.Drawing.Size(225, 23);
             this.btnArea.TabIndex = 10;
             this.btnArea.Text = "Area";
             this.btnArea.UseVisualStyleBackColor = true;
@@ -142,35 +138,26 @@ namespace ParcialModulos
             // 
             // txtPalabra
             // 
-            this.txtPalabra.Location = new System.Drawing.Point(522, 194);
+            this.txtPalabra.Location = new System.Drawing.Point(477, 223);
             this.txtPalabra.Name = "txtPalabra";
-            this.txtPalabra.Size = new System.Drawing.Size(122, 23);
+            this.txtPalabra.Size = new System.Drawing.Size(225, 23);
             this.txtPalabra.TabIndex = 11;
             // 
             // btnInvertir
             // 
-            this.btnInvertir.Location = new System.Drawing.Point(547, 223);
+            this.btnInvertir.Location = new System.Drawing.Point(477, 252);
             this.btnInvertir.Name = "btnInvertir";
-            this.btnInvertir.Size = new System.Drawing.Size(75, 23);
+            this.btnInvertir.Size = new System.Drawing.Size(225, 23);
             this.btnInvertir.TabIndex = 12;
             this.btnInvertir.Text = "Invertir";
             this.btnInvertir.UseVisualStyleBackColor = true;
             this.btnInvertir.Click += new System.EventHandler(this.btnInvertir_Click);
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(538, 176);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(93, 15);
-            this.label6.TabIndex = 13;
-            this.label6.Text = "Frases Invertidas";
-            // 
             // btnContadorTexto
             // 
-            this.btnContadorTexto.Location = new System.Drawing.Point(51, 243);
+            this.btnContadorTexto.Location = new System.Drawing.Point(34, 252);
             this.btnContadorTexto.Name = "btnContadorTexto";
-            this.btnContadorTexto.Size = new System.Drawing.Size(100, 23);
+            this.btnContadorTexto.Size = new System.Drawing.Size(261, 23);
             this.btnContadorTexto.TabIndex = 14;
             this.btnContadorTexto.Text = "Contar Letras";
             this.btnContadorTexto.UseVisualStyleBackColor = true;
@@ -178,19 +165,92 @@ namespace ParcialModulos
             // 
             // txtTexto
             // 
-            this.txtTexto.Location = new System.Drawing.Point(51, 212);
+            this.txtTexto.Location = new System.Drawing.Point(33, 223);
             this.txtTexto.Name = "txtTexto";
-            this.txtTexto.Size = new System.Drawing.Size(100, 23);
+            this.txtTexto.Size = new System.Drawing.Size(262, 23);
             this.txtTexto.TabIndex = 15;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label7.Location = new System.Drawing.Point(122, 35);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(85, 20);
+            this.label7.TabIndex = 16;
+            this.label7.Text = "Modulo 1";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label8.Location = new System.Drawing.Point(123, 189);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(85, 20);
+            this.label8.TabIndex = 17;
+            this.label8.Text = "Modulo 3";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label9.Location = new System.Drawing.Point(538, 35);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(85, 20);
+            this.label9.TabIndex = 18;
+            this.label9.Text = "Modulo 2";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(538, 189);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(85, 20);
+            this.label3.TabIndex = 19;
+            this.label3.Text = "Modulo 3";
+            // 
+            // btnPangrama
+            // 
+            this.btnPangrama.Location = new System.Drawing.Point(33, 385);
+            this.btnPangrama.Name = "btnPangrama";
+            this.btnPangrama.Size = new System.Drawing.Size(261, 23);
+            this.btnPangrama.TabIndex = 20;
+            this.btnPangrama.Text = "Verificar pangrama";
+            this.btnPangrama.UseVisualStyleBackColor = true;
+            this.btnPangrama.Click += new System.EventHandler(this.btnPangrama_Click);
+            // 
+            // txtPangrama
+            // 
+            this.txtPangrama.Location = new System.Drawing.Point(33, 356);
+            this.txtPangrama.Name = "txtPangrama";
+            this.txtPangrama.Size = new System.Drawing.Size(261, 23);
+            this.txtPangrama.TabIndex = 21;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label6.Location = new System.Drawing.Point(122, 322);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(85, 20);
+            this.label6.TabIndex = 22;
+            this.label6.Text = "Modulo 5";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.txtPangrama);
+            this.Controls.Add(this.btnPangrama);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.txtTexto);
             this.Controls.Add(this.btnContadorTexto);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.btnInvertir);
             this.Controls.Add(this.txtPalabra);
             this.Controls.Add(this.btnArea);
@@ -198,7 +258,6 @@ namespace ParcialModulos
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtAltura);
             this.Controls.Add(this.txtBase);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.txtNum2);
             this.Controls.Add(this.txtNum1);
             this.Controls.Add(this.label2);
@@ -218,7 +277,6 @@ namespace ParcialModulos
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtNum1;
         private System.Windows.Forms.TextBox txtNum2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtBase;
         private System.Windows.Forms.TextBox txtAltura;
         private System.Windows.Forms.Label label4;
@@ -226,9 +284,15 @@ namespace ParcialModulos
         private System.Windows.Forms.Button btnArea;
         private System.Windows.Forms.TextBox txtPalabra;
         private System.Windows.Forms.Button btnInvertir;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btnContadorTexto;
         private System.Windows.Forms.TextBox txtTexto;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button btnPangrama;
+        private System.Windows.Forms.TextBox txtPangrama;
+        private System.Windows.Forms.Label label6;
     }
 }
 
