@@ -240,9 +240,9 @@ namespace ParcialModulos
             // 
             // btnIrJuego
             // 
-            this.btnIrJuego.Location = new System.Drawing.Point(516, 259);
+            this.btnIrJuego.Location = new System.Drawing.Point(477, 375);
             this.btnIrJuego.Name = "btnIrJuego";
-            this.btnIrJuego.Size = new System.Drawing.Size(128, 23);
+            this.btnIrJuego.Size = new System.Drawing.Size(225, 23);
             this.btnIrJuego.TabIndex = 14;
             this.btnIrJuego.Text = "Juego del Ahorcado";
             this.btnIrJuego.UseVisualStyleBackColor = true;
@@ -252,7 +252,7 @@ namespace ParcialModulos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(696, 304);
+            this.ClientSize = new System.Drawing.Size(799, 438);
             this.Controls.Add(this.btnIrJuego);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtPangrama);
