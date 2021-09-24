@@ -49,10 +49,8 @@ namespace ParcialModulos
             Modulo3 listaLetras = new Modulo3();
             HashSet<string> listaConDuplicidad = new HashSet<string>(listaLetras.contadorLetras(texto));
             List<string> listaSinDuplicidad = listaConDuplicidad.ToList();
-            foreach (string l in listaSinDuplicidad)
-            {
-                MessageBox.Show(l);
-            }
+            string lista = listaSinDuplicidad.Aggregate((x, y) => x + ", " + y);
+            MessageBox.Show(lista);
         }
 
         private void btnPangrama_Click(object sender, EventArgs e)
